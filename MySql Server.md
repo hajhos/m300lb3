@@ -16,15 +16,15 @@
 *---------------------------------------*	
 ```
 ##### Docker erstellen
-- Der Docker vom https://hub.docker.com/r/mysql/mysql-server auf dem VM pullen.
+- Der MySql Server Dockerfile von der Webseite https://hub.docker.com/r/mysql/mysql-server auf die VM pullen.
 ```
-docker pull mysql/mysql-server:8.0
+docker pull mysql/mysql-server:8.0.1
 ```
-- Das Image, welche auf dem Server gespeicher ist, laufen lassen.
+- Das MySql Image, welche auf dem Server gespeicher ist, laufen lassen.
 ```
 docker run --name my-own-mysql -e MYSQL_ROOT_PASSWORD=mypass123 -d mysql:8.0.1 #--name: Imagesname, Rootpassword, -d: Docker im Hintergrund laufen lassen, mysql: Version
 ```
-- Nun ist der Docker erstellt. Wir können das **image** und **Docker** kontrollieren.
+- Nun ist der Docker erstellt. Wir können das **image** und **Docker** mit untenstehenden Befehlen kontrollieren.
 ```
 docker images #Die vorhandene Docker images werden angezeigt
 docker ps     #Die laufende Dockers werden angezeigt
@@ -32,6 +32,7 @@ docker ps     #Die laufende Dockers werden angezeigt
 ![](dockercontroll.JPG)
 
 - Um die MySql-server grafisch darzustellen, installiere ich PHP-Myadmin Docker. Die Installation dafür befindet sich unter untenstehenden Link. 
+
 <p> URL: http://localhost:8080/adminer.php <br>
 
 | Server              | Hostname            | IP-Adresse          | Netz                | Port                |

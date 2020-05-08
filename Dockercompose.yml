@@ -27,4 +27,4 @@ services:                                  #Die Services, welche wir erstellt ha
       - '8081:80'                         #Der Port, auf dem Phpmyadmin lauft
     environment:
       PMA_HOST: db                        #Service Umgebung -> DB
-      MYSQL_ROOT_PASSWORD: mypass123ver   #Phpmyadmin Passwort
+      MYSQL_ROOT_PASSWORD: mypass123      #Phpmyadmin Passwort

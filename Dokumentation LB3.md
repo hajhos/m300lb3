@@ -32,11 +32,7 @@ git clone git@github.com:hajhos/mym300prj.git
 ___
 ### Webserver
 Webserver-Dokumentation ist unter folgenden Link vorhanden.
-https://github.com/hajhos/mym300prj/blob/master/web/README.md
-___
-### mmdb
-Multi Machine DB-Dokumentation ist unter folgenden Link vorhanden.
-https://github.com/hajhos/mym300prj/blob/master/mmdb/README.md
+https://github.com/hajhos/m300lb3/blob/master/Anleitung
 ___
 ### Test
 - [x] Die konfigurierte Dienste funktionieren.

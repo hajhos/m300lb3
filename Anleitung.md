@@ -1,4 +1,4 @@
-## Anleitung für Docker mit MySql-Server Installation
+## Anleitung für Docker mit MySql-Server erstellen
 
 ```
 *-----------------------------------------------------------------------*
@@ -22,7 +22,7 @@ docker pull mysql/mysql-server:8.0
 ```
 - Das Image, welche auf dem Server gespeicher ist, laufen lassen.
 ```
-docker run --name=mysql1 -d mysql/mysql-server:8.0 #--name: Imagesname, -d: Docker im Hintergrund laufen lassen, Tag: Version
+docker run --name my-own-mysql -e MYSQL_ROOT_PASSWORD=mypass123 -d mysql:8.0.1 #--name: Imagesname, Rootpassword, -d: Docker im Hintergrund laufen lassen, mysql: Version
 ```
 - Nun ist der Docker erstellt. Wir können das **image** und **Docker** kontrollieren.
 ```

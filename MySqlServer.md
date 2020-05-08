@@ -32,7 +32,7 @@ docker ps     #Die laufende Dockers werden angezeigt
 ![](dockercontroll.JPG)
 
 - Um der MySql Server grafisch darzustellen, installiere Ich PHP-Myadmin Docker. Die Installation dafür befindet sich unter dem Link 
-https://github.com/hajhos/m300lb3/blob/master/phpMyAdmin/.
+https://github.com/hajhos/m300lb3/blob/master/PhpMyAdmin.md.
 
 `Test`
 - [x] Ist der Zugriff auf dem MySql Server möglich.

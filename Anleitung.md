@@ -31,7 +31,18 @@ docker ps     #Die laufende Dockers werden angezeigt
 ```
 ![](dockercontroll.JPG)
 
-
+- Das Root Password random generieren 
+```
+docker logs mysql1
+```
+- Das Password kontrollieren
+```
+docker logs mysql1 2>&1 | grep GENERATED
+```
+- Mit dem User Root auf dem MySql DB zugreifen und das generierte Passwort eingeben.
+```
+docker exec -it mysql1 mysql -uroot -p
+```
 
 
 

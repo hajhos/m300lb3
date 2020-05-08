@@ -43,7 +43,7 @@ docker logs mysql1 2>&1 | grep GENERATED
 ```
 docker exec -it mysql1 mysql -uroot -p
 ```
-
+![](root.JPG)
 
 
 

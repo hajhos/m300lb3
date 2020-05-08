@@ -37,7 +37,7 @@ ___
 Die Anleitung zum Erstellen des Dockers mit PhpMyadmin ist unter folgenden Link vorhanden.
 https://github.com/hajhos/m300lb3/blob/master/phpMyAdmin
 ___
-### Dockecompose
+### Dockercompose
 Der Docker-Compose Datei zu den Docker Services befindet sich unter https://github.com/hajhos/m300lb3/blob/master/Dockercompose.yml.
 ___
 ### Test

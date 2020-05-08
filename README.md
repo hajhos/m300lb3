@@ -2,10 +2,18 @@
 
 ```
 *-----------------------------------------------------------------------*
-| Notebook                          |Virtualbox 6.1.2                   |
-| Homenetz: 192.168.1.0 /24         |IP-Adresse: 10.0.2.15/24           |                 
-|                                   |Gateway: 10.0.2.2                  |
+| Notebook                                 Homenetz: 192.168.1.0/24     |                      
+| Virtelle Umgebung: Virtualbox 6.1.2      IP-Adresse: 10.0.2.15/24     |
 *-----------------------------------------------------------------------*	
+
+*---------------------------------------*                
+|Datenbank: MySql Server                |
+|Container                              |
+|Container-Engine: Docker               |
+|Gast OS: Ubuntu 16.04                  |
+|Hypervisor: VBox                       |
+|Host-OS: Windows 10                    |
+*---------------------------------------*	
 ```
 ##### Docker 
 | Server              | Hostname            | IP-Adresse          | Netz                | Port                |

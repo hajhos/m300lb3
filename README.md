@@ -11,7 +11,7 @@
 ## Inhalt
 1. [Einleitung](#Einleitung)
 2. [Vorbereitung](#Vorbereitung)
-3. [MySqlServer](#MySql Server)
+3. [Mysqlserver](#MySql Server)
 4. [Test](#Test)
 5. [Quellen](#Quellen)
 ___

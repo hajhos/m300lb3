@@ -16,10 +16,10 @@
 5. [Quellen](#Quellen)
 ___
 ### Einleitung
-Mit diesem Dokument wird man über untenstehende Themen erfahren.
-- Ein **Webserver** mit **Vagrant** in ein Netzwerk integrieren.
-- Ein **Multi Machine DB** mit Vagrant in ein Netzwerk integrieren.
-- Die Dienste auf dem Github-Repository pushen. 
+Mit diesem Dokument wird man über untenstehenden Themen erfahren.
+- Ein **Container** erstellen.
+- Die Tools für das Erstellen eines Containers kennen.
+- Container Compose
 ___
 ### Vorbereitung
 - Auf dem **Github** ein neuen Repository erstellen.

@@ -18,9 +18,23 @@
 ##### Docker erstellen
 - Der Docker vom https://hub.docker.com/r/mysql/mysql-server auf dem VM pullen.
 ```
-docker pull mysql/mysql-server
+docker pull mysql/mysql-server:8.0
 ```
-- 
+- Das Image welche auf dem Server gespeicher ist, laufen lassen.
+```
+docker run --name=mysql1 -d mysql/mysql-server:8.0
+```
+- Nun ist der Docker erstellt. Wir können das **image** und **Docker** kontrollieren.
+```
+docker images
+```
+```
+docker ps
+```
+
+
+
+
 
 
 
@@ -43,4 +57,4 @@ docker pull mysql/mysql-server
 - [x] Beim Aufruf der URL wird der Adminer.php loginseite angezeigt.
 - [x] **Vagrantfile**, **Readme.md**, **Fotos**, **.gitignore** und **db.sh** erfolgreich auf dem Github-Repository gepusht.
 
-##### Zurück zur Haupt-Dokumentation: https://github.com/hajhos/mym300prj/blob/master/LB2Dokumentation.md
+##### Zurück zur Haupt-Dokumentation: https://github.com/hajhos/m300lb3

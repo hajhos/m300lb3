@@ -34,7 +34,7 @@ https://github.com/hajhos/m300lb3/blob/master/MySqlServer.md
 ___
 ### Phpmyadmin
 Die Anleitung zum Erstellen des Dockers mit PhpMyadmin ist unter folgenden Link vorhanden.
-https://github.com/hajhos/m300lb3/blob/master/MySqlServer.md
+https://github.com/hajhos/m300lb3/blob/master/phpMyAdmin
 ___
 ### Test
 - [x] Der Container und die Dienste darauf funktionieren.

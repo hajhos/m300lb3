@@ -15,7 +15,15 @@
 |Host-OS: Windows 10                    |
 *---------------------------------------*	
 ```
-##### Docker 
+##### Docker erstellen
+- Der Docker vom https://hub.docker.com/ auf dem VM pullen.
+```
+docker pull mysql/mysql-server
+```
+
+
+
+
 | Server              | Hostname            | IP-Adresse          | Netz                | Port                |
 |:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|
 | Web-Server: apache2 | lb2web              | 192.168.2.201       | NAT: 80             | 8080                |

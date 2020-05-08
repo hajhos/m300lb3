@@ -29,7 +29,7 @@ ___
 ___
 ### Anleitung
 Die Anleitung zum Erstellen des Dockers mit MySql Server ist unter folgenden Link vorhanden.
-https://github.com/hajhos/m300lb3/blob/master/Anleitung
+https://github.com/hajhos/m300lb3/blob/master/MySql%20Server.md
 ___
 ### Test
 - [x] Der Container und die Dienste darauf funktionieren.

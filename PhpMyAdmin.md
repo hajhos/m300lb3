@@ -13,7 +13,7 @@
 |:--------------------|:--------------------|:--------------------|            
 | local               | 8081                | MySql               |
 
-- PhpMyadmin Docker auf dem VM Pullen. 
+- Der PhpMyadmin Dockerfile von der Webseite https://hub.docker.com/r/phpmyadmin/phpmyadmin auf die VM pullen.
 ```
 docker pull phpmyadmin/phpmyadmin:latest
 ```

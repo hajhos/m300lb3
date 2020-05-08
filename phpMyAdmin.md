@@ -1,4 +1,4 @@
-## Docker mit PhpMyadmin Weboberfläche für MySql Docker erstellen
+## PhpMyadmin als Weboberfläche für MySql Server installieren
 
 *---------------------------------------*                
 |Container                              |

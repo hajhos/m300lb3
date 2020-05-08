@@ -22,12 +22,10 @@ Mit diesem Dokument wird man über untenstehenden Themen erfahren.
 - Container Compose
 ___
 ### Vorbereitung
-- Auf dem **Github** ein neuen Repository erstellen.
-- Der Repository auf dem lokalen Speicher clonen.
-```
-git clone git@github.com:hajhos/mym300prj.git
-```
-- Auf diesem Verzeichnis **Gitbash** starten.
+- Auf dem Host-OS der **Virtualbox** installieren.
+- Ein neue VM mit **Ubuntu 16.04** erstellen.
+- Für das Dokumentieren ist **Markdown** zum Empfählen.
+- Ein **Github** Account aufmachen.
 ___
 ### Anleitung
 Die Anleitung zum Erstellen des Dockers mit MySql Server ist unter folgenden Link vorhanden.

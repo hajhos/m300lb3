@@ -16,11 +16,11 @@
 *---------------------------------------*	
 ```
 ##### Docker erstellen
-- Der Docker vom https://hub.docker.com/ auf dem VM pullen.
+- Der Docker vom https://hub.docker.com/r/mysql/mysql-server auf dem VM pullen.
 ```
 docker pull mysql/mysql-server
 ```
-
+- 
 
 
 
@@ -28,20 +28,6 @@ docker pull mysql/mysql-server
 |:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|
 | Web-Server: apache2 | lb2web              | 192.168.2.201       | NAT: 80             | 8080                |
 | DB-Server: mysql    | lb2db               | 192.168.2.200       | __                  | 3306                |
-
-- Der mmdb-Vagranfile lokal speichern.
-- Der Code nach eigene Anforderungen anpassen. 
-- Beim IP-Anpassungen muss diese Änderung auf dem **db.sh** auch eingetragen werden.
-- Die Server (mysql & apache2) sind im gleichen Netz (192.168.2.0).
-- Die Änderungen speichern. (auf vim -> :wq)
-- Vagrant up
-``` 
-cd c:/Users/hajar/mym300prj/mmdb 
-vagrant up 
-```
-- **Vagrant** sucht im Internet nach aufgerufene Dienst. Nachher werden die Dateien local speichern.
-- Web-Server und DB-Server laufen auf dem Virtualbox.
-- Zugriff auf dem Weboberfläche für Mysql-User ist wie folgt:
 
 <p> URL: http://localhost:8080/adminer.php <br>
  
@@ -57,4 +43,4 @@ vagrant up
 - [x] Beim Aufruf der URL wird der Adminer.php loginseite angezeigt.
 - [x] **Vagrantfile**, **Readme.md**, **Fotos**, **.gitignore** und **db.sh** erfolgreich auf dem Github-Repository gepusht.
 
-##### Zurück zur LB2Dokumentation: https://github.com/hajhos/mym300prj/blob/master/LB2Dokumentation.md
+##### Zurück zur Haupt-Dokumentation: https://github.com/hajhos/mym300prj/blob/master/LB2Dokumentation.md

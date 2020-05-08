@@ -1,4 +1,4 @@
-## Anleitung für **Docker mit MySql-Server** Installation
+## Anleitung für <span style="color:blue">some <em>blue</em> Docker mit MySql-Server</span> Installation
 
 ```
 *-----------------------------------------------------------------------*

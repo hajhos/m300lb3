@@ -1,4 +1,4 @@
-## Anleitung für Docker mit MySql-Server erstellen
+## Docker mit MySql-Server erstellen
 
 ```
 *-----------------------------------------------------------------------*

@@ -1,13 +1,24 @@
+## Docker mit PhpMyadmin Weboberfläche für MySql Docker erstellen
 
-| Server              | Hostname            | IP-Adresse          | Netz                | Port                |
-|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|
-| Web-Server: apache2 | lb2web              | local       | NAT: 80             | 8081                |
+*---------------------------------------*                
+|Container                              |
+|Container-Engine: Docker               |
+|Gast OS: Ubuntu 16.04                  |
+|Hypervisor: Virtualbox                 |
+|Host-OS: Windows 10                    |
+*---------------------------------------*	
+```
+##### Übersicht
+| IP-Adresse          | Port                | DB-Server           |
+|:--------------------|:--------------------|:--------------------|            
+| local               | 8081                | MySql               |
+
+- PhpMyadmin Docker auf dem VM Pullen. 
 
 
-| Server              | Hostname            | IP-Adresse          | Netz                | Port                |
-|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|
-| Web-Server: apache2 | lb2web              | 192.168.2.201       | NAT: 80             | 8080                |
-| DB-Server: mysql    | lb2db               | 192.168.2.200       | __                  | 3306                |
+
+
+
 
 <p> URL: http://localhost:8080/adminer.php <br>
  

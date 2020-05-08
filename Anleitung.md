@@ -1,4 +1,4 @@
-## Anleitung für (&#x1F499;)  Docker mit MySql-Server) Installation
+## Anleitung für Docker mit MySql-Server Installation
 
 ```
 *-----------------------------------------------------------------------*
@@ -26,10 +26,8 @@ docker run --name=mysql1 -d mysql/mysql-server:8.0
 ```
 - Nun ist der Docker erstellt. Wir können das **image** und **Docker** kontrollieren.
 ```
-docker images
-```
-```
-docker ps
+docker images 
+docker ps 
 ```
 ![](dockercontroll.JPG)
 

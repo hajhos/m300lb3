@@ -20,9 +20,9 @@
 ```
 docker pull mysql/mysql-server:8.0
 ```
-- Das Image welche auf dem Server gespeicher ist, laufen lassen.
+- Das Image, welche auf dem Server gespeicher ist, laufen lassen.
 ```
-docker run --name=mysql1 -d mysql/mysql-server:8.0
+docker run --name=mysql1 -d mysql/mysql-server:8.0             #--name: Imagesname, -d: Docker im Hintergrund laufen lassen, Tag: Version
 ```
 - Nun ist der Docker erstellt. Wir können das **image** und **Docker** kontrollieren.
 ```

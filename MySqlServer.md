@@ -1,4 +1,4 @@
-## Docker mit MySql-Server erstellen
+## Docker mit MySql Server erstellen
 
 ```
 *-----------------------------------------------------------------------*
@@ -31,29 +31,8 @@ docker ps     #Die laufende Dockers werden angezeigt
 ```
 ![](dockercontroll.JPG)
 
-- Um die MySql-server grafisch darzustellen, installiere ich PHP-Myadmin Docker. Die Installation dafür befindet sich unter untenstehenden Link. 
-
-<p> URL: http://localhost:8080/adminer.php <br>
-
-| Server              | Hostname            | IP-Adresse          | Netz                | Port                |
-|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|
-| Web-Server: apache2 | lb2web              | local       | NAT: 80             | 8081                |
-
-
-| Server              | Hostname            | IP-Adresse          | Netz                | Port                |
-|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|
-| Web-Server: apache2 | lb2web              | 192.168.2.201       | NAT: 80             | 8080                |
-| DB-Server: mysql    | lb2db               | 192.168.2.200       | __                  | 3306                |
-
-<p> URL: http://localhost:8080/adminer.php <br>
- 
-**LOGIN-ANGABE:**  `Username: User` `Password: admin`
-
-![](login.JPG)
-
-![](eingelogt.JPG)
-
-- **Vagrantfile**, **Readme.md** , **Fotos**, **.gitignore** und **db.sh** auf dem Github-Repository pushen.
+- Um die MySql-server grafisch darzustellen, installiere ich PHP-Myadmin Docker. Die Installation dafür befindet sich unter untenstehenden Link.
+https://github.com/hajhos/m300lb3/blob/master/phpMyAdmin
 
 `Test`
 - [x] Beim Aufruf der URL wird der Adminer.php loginseite angezeigt.

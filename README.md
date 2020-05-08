@@ -11,7 +11,7 @@
 ## Inhalt
 1. [Einleitung](#Einleitung)
 2. [Vorbereitung](#Vorbereitung)
-3. [Anleitung](#Anleitung)
+3. [MySqlServer](#MySql Server)
 4. [Test](#Test)
 5. [Quellen](#Quellen)
 ___
@@ -27,9 +27,9 @@ ___
 - Für das Dokumentieren ist **Markdown** zum Empfählen.
 - Um Dokumentation freizugeben ein **Github** Account erstellen.
 ___
-### Anleitung
+### MySql Server
 Die Anleitung zum Erstellen des Dockers mit MySql Server ist unter folgenden Link vorhanden.
-https://github.com/hajhos/m300lb3/blob/master/MySql%20Server.md
+https://github.com/hajhos/m300lb3/blob/master/MySqlServer.md
 ___
 ### Test
 - [x] Der Container und die Dienste darauf funktionieren.

@@ -13,8 +13,9 @@
 2. [Vorbereitung](#Vorbereitung)
 3. [Mysqlserver](#Mysqlserver)
 4. [Phpmyadmin](#Phpmyadmin)
-5. [Test](#Test)
-6. [Quellen](#Quellen)
+5. [Dockercompose](#Dockercompose)
+6. [Test](#Test)
+7. [Quellen](#Quellen)
 ___
 ### Einleitung
 Mit diesem Dokument wird man über untenstehenden Themen erfahren.
@@ -35,6 +36,9 @@ ___
 ### Phpmyadmin
 Die Anleitung zum Erstellen des Dockers mit PhpMyadmin ist unter folgenden Link vorhanden.
 https://github.com/hajhos/m300lb3/blob/master/phpMyAdmin
+
+### Dockecompose
+Docker-Compose File zu den Docker Services befindet sich unter .
 ___
 ### Test
 - [x] Der Container und die Dienste darauf funktionieren.

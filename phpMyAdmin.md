@@ -1,5 +1,5 @@
 ## PhpMyadmin als Weboberfläche für MySql Server installieren
-
+```
 *---------------------------------------*                
 |Container                              |
 |Container-Engine: Docker               |
@@ -7,7 +7,7 @@
 |Hypervisor: Virtualbox                 |
 |Host-OS: Windows 10                    |
 *---------------------------------------*	
-
+```
 ##### Übersicht
 | IP-Adresse          | Port                | DB-Server           |
 |:--------------------|:--------------------|:--------------------|            

@@ -1,1 +1,21 @@
-phpMyAdmin
+<p> URL: http://localhost:8080/adminer.php <br>
+
+| Server              | Hostname            | IP-Adresse          | Netz                | Port                |
+|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|
+| Web-Server: apache2 | lb2web              | local       | NAT: 80             | 8081                |
+
+
+| Server              | Hostname            | IP-Adresse          | Netz                | Port                |
+|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|
+| Web-Server: apache2 | lb2web              | 192.168.2.201       | NAT: 80             | 8080                |
+| DB-Server: mysql    | lb2db               | 192.168.2.200       | __                  | 3306                |
+
+<p> URL: http://localhost:8080/adminer.php <br>
+ 
+**LOGIN-ANGABE:**  `Username: User` `Password: admin`
+
+![](login.JPG)
+
+![](eingelogt.JPG)
+
+- **Vagrantfile**, **Readme.md** , **Fotos**, **.gitignore** und **db.sh** auf dem Github-Repository pushen.

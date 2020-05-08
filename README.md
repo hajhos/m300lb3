@@ -17,7 +17,7 @@
 ___
 ### Einleitung
 Mit diesem Dokument wird man über untenstehenden Themen erfahren.
-- Ein **Container** erstellen.
+- Ein **Docker** mit **MySql Server** erstellen.
 - Die Tools für das Erstellen eines Containers kennen.
 - Container Compose
 ___
@@ -30,15 +30,14 @@ git clone git@github.com:hajhos/mym300prj.git
 - Auf diesem Verzeichnis **Gitbash** starten.
 ___
 ### Anleitung
-Webserver-Dokumentation ist unter folgenden Link vorhanden.
+Die Anleitung zum Erstellen des Dockers mit MySql Server ist unter folgenden Link vorhanden.
 https://github.com/hajhos/m300lb3/blob/master/Anleitung
 ___
 ### Test
-- [x] Der Container und die Diensxte darauf funktionieren.
+- [x] Der Container und die Dienste darauf funktionieren.
 - [x] Die Vorgägnge sind Dokumentiert.
 - [x] Die Befehle aus dem Dokument sind nutzbar.
 ___
-### Quhttps://hub.docker.com/https://hub.docker.com/ellen
+### Quellen
 - https://hub.docker.com/
-
 - M300-Lernmittels

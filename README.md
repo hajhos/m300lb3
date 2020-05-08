@@ -25,7 +25,7 @@ ___
 - Auf dem Host-OS der **Virtualbox** installieren.
 - Ein neue VM mit **Ubuntu 16.04** erstellen.
 - Für das Dokumentieren ist **Markdown** zum Empfählen.
-- Ein **Github** Account aufmachen.
+- Um Dokumentation freizugeben ein **Github** Account erstellen.
 ___
 ### Anleitung
 Die Anleitung zum Erstellen des Dockers mit MySql Server ist unter folgenden Link vorhanden.

@@ -21,13 +21,13 @@ docker pull phpmyadmin/phpmyadmin:latest
 ```
 docker run --name my-own-phpmyadmin -d --link my-own-mysql:db -p 8081:80 phpmyadmin/phpmyadmin #PhpyMyadmin wird auf port 8081 aufgerufen -p: Portnummer
 ``` 
-- Nun lauft der MySql DB auf PhpMyadmin Weboberfläche. Mit untenstehenden Link kann man die Weboberfläche aufrufen. 
+- Nun lauft der MySql DB auf PhpMyadmin Weboberfläche. Mit untenstehenden Link kann man die MySql DB mit der Weboberfläche aufrufen. 
 <p> URL: http://localhost:8081/ <br>
+
+![](login.JPG)
  
-**LOGIN-ANGABE:**  `Username: User` `Password: admin`
+**LOGIN-ANGABE:**  `Username: Root` `Password: mypass123 #Das Root-Password vom MySql Server Docker`
 
 ![](login.JPG)
 
-![](eingelogt.JPG)
 
-- **Vagrantfile**, **Readme.md** , **Fotos**, **.gitignore** und **db.sh** auf dem Github-Repository pushen.

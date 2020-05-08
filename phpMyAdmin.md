@@ -24,7 +24,7 @@ docker run --name my-own-phpmyadmin -d --link my-own-mysql:db -p 8081:80 phpmyad
 - Nun lauft der MySql DB auf PhpMyadmin Weboberfläche. Mit untenstehenden Link kann man die MySql DB mit der Weboberfläche aufrufen. 
 <p> URL: http://localhost:8081/ <br>
 
-![drawing](web.JPG)
+![](web.JPG = 200x)
  
 **LOGIN-ANGABE:**  `Username: Root` `Password: mypass123 #Das Root-Password vom MySql Server Docker`
 

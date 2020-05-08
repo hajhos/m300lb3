@@ -31,7 +31,7 @@ docker images
 ```
 docker ps
 ```
-![](dockercontroll.jpg)
+![](dockercontroll.JPG)
 
 
 

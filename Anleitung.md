@@ -7,11 +7,11 @@
 *-----------------------------------------------------------------------*	
 
 *---------------------------------------*                
-|Datenbank: MySql Server                |
+|Datenbank: MySql Server 8.0.1          |
 |Container                              |
 |Container-Engine: Docker               |
 |Gast OS: Ubuntu 16.04                  |
-|Hypervisor: VBox                       |
+|Hypervisor: Virtualbox                 |
 |Host-OS: Windows 10                    |
 *---------------------------------------*	
 ```
@@ -31,21 +31,12 @@ docker ps     #Die laufende Dockers werden angezeigt
 ```
 ![](dockercontroll.JPG)
 
-- Das Root Password random generieren 
-```
-docker logs mysql1
-```
-- Das Password kontrollieren
-```
-docker logs mysql1 2>&1 | grep GENERATED
-```
-- Mit dem User Root auf dem MySql DB zugreifen und das generierte Passwort eingeben.
-```
-docker exec -it mysql1 mysql -uroot -p
-```
-![](root.JPG)
+- Um die MySql-server grafisch darzustellen, installiere ich PHP-Myadmin Docker. Die Installation dafür befindet sich unter untenstehenden Link. 
+<p> URL: http://localhost:8080/adminer.php <br>
 
-
+| Server              | Hostname            | IP-Adresse          | Netz                | Port                |
+|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|
+| Web-Server: apache2 | lb2web              | local       | NAT: 80             | 8081                |
 
 
 | Server              | Hostname            | IP-Adresse          | Netz                | Port                |

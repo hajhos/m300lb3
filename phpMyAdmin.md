@@ -30,4 +30,10 @@ docker run --name my-own-phpmyadmin -d --link my-own-mysql:db -p 8081:80 phpmyad
 
 ![](phpdb.JPG)
 
+`Test`
+- [x] Ist der Zugriff auf dem MySql Server durch PhpMyadmin möglich.
+- [x] Sind die Befehle sauber dokumentiert und getestet.
+
+##### Zurück zur Haupt-Dokumentation: https://github.com/hajhos/m300lb3
+
 

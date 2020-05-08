@@ -14,13 +14,15 @@
 | local               | 8081                | MySql               |
 
 - PhpMyadmin Docker auf dem VM Pullen. 
-
-
-
-
-
-
-<p> URL: http://localhost:8080/adminer.php <br>
+```
+docker pull phpmyadmin/phpmyadmin:latest
+```
+- Das Image laufen lassen.
+```
+docker run --name my-own-phpmyadmin -d --link my-own-mysql:db -p 8081:80 phpmyadmin/phpmyadmin #PhpyMyadmin wird auf port 8081 aufgerufen -p: Portnummer
+``` 
+- Nun lauft der MySql DB auf PhpMyadmin Weboberfläche. Mit untenstehenden Link kann man die Weboberfläche aufrufen. 
+<p> URL: http://localhost:8081/ <br>
  
 **LOGIN-ANGABE:**  `Username: User` `Password: admin`
 
